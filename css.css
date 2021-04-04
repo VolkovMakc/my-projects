@@ -1,0 +1,16 @@
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+.header{
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  max-width: 100%;
+  display: flex;
+  min-height: 100vh;
+  text-align: center;
+  text-decoration: none;
+  padding: 0 auto;
+}

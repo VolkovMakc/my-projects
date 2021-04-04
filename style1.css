@@ -1,0 +1,41 @@
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+html{
+	font-family: Anton, sans-serif;
+	font-size: 16px;
+	line-height: 1.25;
+}
+.header{
+height: 110px;
+background-color: #DAA520;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+text-decoration: none;
+}
+.content{
+min-height: 100vh;
+display: flex;
+text-align: center;
+justify-content: center;
+}
+.aside{
+display: flex;
+justify-content: space-between;
+min-width: 210px;
+}
+.side-left{
+position: relative;
+order: -1;
+min-width: 210px;
+background-color: #FF00FF;
+}
+.side-right{
+order: 2;
+min-width: 210px;
+background-color: #00BFFF;
+}
